@@ -1,0 +1,24 @@
+<div class="container" />
+
+<style>
+  .container {
+    width: 50px;
+    height: 50px;
+    animation: my-animation 5s linear infinite alternate;
+  }
+
+  @keyframes my-animation {
+    from {
+      transform: rotateZ(0deg);
+      border-radius: 5%;
+      box-shadow: 0 0 0 10px slateblue;
+      background-color: violet;
+    }
+    to {
+      transform: rotateZ(360deg);
+      border-radius: 50%;
+      box-shadow: 50px 50px 0 10px violet;
+      background-color: slateblue;
+    }
+  }
+</style>
