@@ -1,0 +1,32 @@
+<div class="content">
+
+  <div class="container" />
+</div>
+
+<style>
+  .container {
+    width: 50px;
+    height: 50px;
+    animation: my-animation 3s linear infinite alterna;
+  }
+  @keyframes my-animation {
+    0% {
+      transform: translate(0px, 0px) rotate(0);
+      border-radius: 5%;
+      box-shadow: 50px 50px 0 10px pink;
+      background-color: slateblue;
+    }
+    50% {
+      transform: translate(40px, 40px) rotate(0);
+      border-radius: 20%;
+      box-shadow: -50px -50px 0 10px violet;
+      background-color: violet;
+    }
+    100% {
+      transform: translate(100px, 100px) rotate(180deg);
+      border-radius: 100%;
+      box-shadow: 0 0 0 10px slateblue;
+      background-color: pink;
+    }
+  }
+</style>
